@@ -132,3 +132,79 @@ nav ul li a:hover {
     color: #fff;
     font-family: "Work Sans", sans-serif;
 }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+  }
+  
+  #social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #social i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: var(--color-nav);
+  }
+  
+  #cart {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .badge:after {
+    content: attr(value);
+    font-family: "Oswald", sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    background: red;
+    border-radius: 50%;
+    padding: 6px 8px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+  }
+  script{
+    
+  }
+  
+  @media (max-width: 960px) {
+  
+    #header-container {
+      flex-direction: column;
+    }
+  
+    .gallery {
+      flex-direction: column;
+      margin-top: 60px;
+    }
+  
+    .gallery li {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    #header-container #logo {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+    .img-jpg {
+      width: 100%;
+      /* Imagenes responsivas */
+      max-width: 100%;
+      /* Imagenes responsivas */
+      height: auto;
+    }
+  
+  
+  }
